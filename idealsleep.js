@@ -31,17 +31,17 @@ let getSleepHours = day => {
       let result = getSleepHours('monday') + getSleepHours('tuesday') + getSleepHours('wednesday') + getSleepHours('thursday') + getSleepHours('friday') + getSleepHours('saturday') + getSleepHours('sunday');
       return result
     }
-    console.log(
-      `This week you had ${getActualSleepHours()}-hrs of sleep`)
+    /*console.log(
+      `This week you had ${getActualSleepHours()}-hrs of sleep`)*/
     
     const getIdealSleepHours = () => {
       let idealHours = 9;
         return idealHours * 7;
       
     }
-    console.log(`
+   /*console.log(`
     You should be getting atleast ${getIdealSleepHours()}-hrs of sleep per week
-    `)
+    `)*/
     
     
     const calculateSleepDept = () => {
